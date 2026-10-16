@@ -21,13 +21,13 @@ int main()
     printf("Введите число double: ");
     scanf("%lf", &d);
     // 1а. Целая и дробная части числа f
-    int whole = (int)f;
-    float fraction = f - whole;
-    printf("Целая часть: %d\n", whole);
-    printf("Дробная часть: %f\n", fraction);
+    int chelaya = (int)f;
+    float drobnaya = f - chelaya;
+    printf("Целая часть: %d\n", chelaya);
+    printf("Дробная часть: %f\n", drobnaya);
     // 1б. Код символа
-    printf("Десятичный код: %u\n", (unsigned int)(unsigned char)c);
-    printf("Шестнадцатеричный код: %X\n", (unsigned int)(unsigned char)c);
+    printf("Десятичный код: %u\n", (unsigned char)c);
+    printf("Шестнадцатеричный код: %X\n", (unsigned char)c);
     // 1в. Значение 1/i
     if (i != 0) {
         printf("1/i = %f\n", 1.0 / i);
