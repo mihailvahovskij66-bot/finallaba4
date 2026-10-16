@@ -1,11 +1,8 @@
 #include <stdio.h>
-
 int main(void)
 {
     int a = 11, b = 3;
-    printf("float:  %f\n", (float)a / b);
-    printf("double: %f\n", (double)a / b);
-    printf("Before division: %f\n", (double)a / b);
-    printf("After division:  %f\n", (double)(a / b));
+    printf("float:  %f\n", (float) a / b);
+    printf("double: %lf\n", (double) a / b);
     return 0;
 }
