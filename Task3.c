@@ -6,7 +6,6 @@ int x;
 int y;
 int z;
 int X;
-
 int main()
 {
     setlocale(LC_ALL, "");
